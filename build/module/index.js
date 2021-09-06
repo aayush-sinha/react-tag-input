@@ -26,7 +26,7 @@ var ReactTagInput = (function (_super) {
         _this.onInputKeyDown = function (e) {
             var input = _this.state.input;
             var _a = _this.props, validator = _a.validator, removeOnBackspace = _a.removeOnBackspace;
-            if (e.keyCode === 13) {
+            if (e.keyCode === 13  || e.keyCode === 188) {
                 e.preventDefault();
                 if (input === "") {
                     return;
