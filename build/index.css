@@ -24,6 +24,7 @@
   margin: 0.1875em;
 }
 .react-tag-input__input {
+  font-family: 'Poppins', sans-serif;
   width: auto;
   flex-grow: 1;
   height: 1.875em;
@@ -50,6 +51,7 @@
   border: none;
 }
 .react-tag-input__tag {
+  font-family: 'Poppins', sans-serif;
   position: relative;
   display: flex;
   align-items: center;
@@ -60,11 +62,13 @@
 }
 .react-tag-input__tag__content {
   outline: 0;
+  font-family: 'Poppins', sans-serif;
   border: none;
   white-space: nowrap;
   padding: 0 0.46875em;
 }
 .react-tag-input__tag__remove {
+  font-family: 'Poppins', sans-serif;
   position: relative;
   height: 2em;
   width: 2em;
