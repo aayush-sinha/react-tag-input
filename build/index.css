@@ -61,6 +61,7 @@
   border-radius: 3px;
 }
 .react-tag-input__tag__content {
+  font-weight: normal !important;
   outline: 0;
   font-family: 'Poppins', sans-serif;
   border: none;
