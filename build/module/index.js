@@ -85,7 +85,7 @@ var ReactTagInput = (function (_super) {
         return (React.createElement("div", { className: classSelectors.wrapper },
             tags.map(function (tag, i) { return (React.createElement(Tag, { key: i, value: tag, index: i, editable: isEditable, readOnly: readOnly || false, inputRef: _this.inputRef, update: _this.updateTag, remove: _this.removeTag, validator: validator, removeOnBackspace: removeOnBackspace })); }),
             showInput &&
-                React.createElement("input", { ref: this.inputRef, value: input, className: classSelectors.input, placeholder: placeholder || "Type and press enter", onChange: this.onInputChange, onKeyDown: this.onInputKeyDown, onBlur: this.customOnBlur, type: "text" })));
+                React.createElement("input", { ref: this.inputRef, value: input, className: classSelectors.input, placeholder: placeholder || "Type and press enter", onChange: this.onInputChange, onKeyDown: this.onInputKeyDown, onBlur: this.customOnBlur, type: "text", autocomplete: "off" })));
     };
     return ReactTagInput;
 }(React.Component));
